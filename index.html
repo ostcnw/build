@@ -94,9 +94,9 @@
             <div class="div-12">
               <div class="div-13">Location</div>
               <div class="the-event-will-be-happening-at">
-                The event will be happening at Springfield Oaks.
+                The event will be located at Springfield Oaks.
                 <div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.2293080891386!2d-83.53381968109012!3d42.74120047134052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88249e935bad4e7d%3A0xd8dbdf7b271c8296!2sSpringfield%20Oaks%20County%20Park!5e0!3m2!1sen!2sus!4v1647536460058!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2930.2293080891386!2d-83.53381968109012!3d42.74120047134052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88249e935bad4e7d%3A0xd8dbdf7b271c8296!2sSpringfield%20Oaks%20County%20Park!5e0!3m2!1sen!2sus!4v1647536460058!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@
                 <div class="div-48">
                   Plant pressing is the process of taking plant life and
                   presssing them between paper to evenly dry out. These can then
-                  be used to decrate pictures or any other craft.
+                  be used to decorate pictures or any other crafts.
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@
       </div>
     </div>
     <div class="div-49">
-      <div class="div-50">Interested in a live interview, or learning more? Sign up now!</div>
+      <div class="div-50">Interested in a live interview, or learning more? Click below!</div>
       <div class="div-51"><a href="https://iteam.live/survey/index.php/867743?lang=en">Click Here</a></div>
     </div>
     <div class="this-event-is-a-work-based-lea">
@@ -369,6 +369,7 @@ a:active {
     font-family: GFS Didot, sans-serif;
   }
   .div-9 {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -379,11 +380,10 @@ a:active {
   .div-10 {
     display: flex;
     flex-direction: column;
-    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 250px;
-    padding-left: 250px;
+    padding-right: auto;
+    padding-left: auto;
   }
   .div-11 {
     display: flex;
@@ -407,28 +407,30 @@ a:active {
     }
   }
   .div-12 {
+    padding-left: 10vw;
+    padding-right: 3vw;
     display: flex;
     flex-direction: column;
-    max-width: 600px;
     justify-content: center;
   }
   .div-13 {
-    max-width: 477px;
     color: rgba(255, 255, 255, 1);
     font-size: 45px;
-    line-height: 110.00000238418579%;
     letter-spacing: 0%;
     text-align: center;
     font-family: Libre Baskerville, sans-serif;
   }
+  .google-map {
+    width: 35vw;
+    height: 35vh;
+  }
   .the-event-will-be-happening-at {
-    max-width: 600px;
     margin-top: 24px;
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     font-family: Roboto, sans-serif;
   }
   .column-4 {
@@ -465,7 +467,8 @@ a:active {
   .div-15 {
     display: flex;
     flex-direction: column;
-    max-width: 679px;
+    padding-left: 3vw;
+    padding-right: 10vw;
     justify-content: center;
   }
   .div-16 {
@@ -801,8 +804,10 @@ a:active {
     margin-top: 100px;
   }
   .div-50 {
-
-    max-width: 845px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    justify-content: center;
     color: rgba(52, 61, 51, 1);
     font-size: 36px;
     line-height: 110.00000238418579%;
@@ -811,6 +816,9 @@ a:active {
     font-family: Libre Baskerville, sans-serif;
   }
   .div-51 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33vw;
     display: flex;
     flex-direction: column;
     max-width: 135px;
@@ -859,9 +867,9 @@ a:active {
     font-family: Roboto, sans-serif;
   }
   .this-event-is-a-work-based-lea {
+    width:100vw;
     display: flex;
     flex-direction: column;
-    max-width: 1390px;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 100px;
